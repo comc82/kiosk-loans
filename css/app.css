@@ -1,0 +1,139 @@
+body {
+	color: #555555;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 1.5625em;
+}
+.bg-container {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	background: url("../img/bg.jpg") no-repeat center center fixed;
+	background-size: cover;
+	z-index: -10;
+}
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+	font-family: 'Lato', sans-serif;
+}
+.material-icons {
+	vertical-align: middle;
+	font-size: inherit;
+}
+.app-container {
+	max-width: 1150px;
+	margin:auto;
+	margin-bottom: 50px;
+}
+* {
+	box-sizing: border-box;
+}
+.title {
+	background-color: #ffd200;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-weight: 900;
+}
+.title > i {
+	font-size: 1.3em;
+	color: #0079c0;
+}
+
+main,
+aside {
+	padding-right: 50px;
+	padding-left: 50px;
+}
+aside {
+	font-size: 0.88em;
+	padding-left: 30px;
+}
+
+main {	
+	border-right: solid 1px #ffd200;
+}
+
+.list-unstyled {
+	padding-left: 0;
+	list-style: none;
+}
+.list-unstyled.list-check{
+	margin-left: 1.3em;
+	padding-left: 0;
+	list-style: none;
+}
+.list-unstyled > li {
+	margin-bottom: 1em;
+}
+.list-unstyled.list-check  li:before{
+  content: "\E5CA";
+  font-family: 'Material Icons';
+  display: inline-block;
+  width: 1.3em;
+  margin-left: -1.3em;
+  color: #ffd200;
+}
+.pure-button,
+.pure-button.pure-button-primary {
+	white-space: normal;
+	
+}
+
+.pure-button.pure-button-primary {
+	background-color: #0079c0;
+	box-shadow: 3px 3px 0px #004d7a;
+	color: #fff;
+}
+.pure-button {
+	font-weight: 900;
+	color: #555;
+	background-color: #d8d8d8;
+	box-shadow: 3px 3px 0px #929292;
+	
+	
+	
+}
+.highlight {
+	color: #0079c0;
+}
+.stage {
+	background-color: #ffea88;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.progress-bar {
+	position: relative;
+	bottom: 0;
+	top: 13px;
+}
+.progress-bar.rail {
+	height: 6px;
+	background-color: #fff;
+	z-index: 0;
+	top:0px;
+}
+.progress-done {
+	height: 6px;
+	background-color: #0079c0;
+	width: 100px;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+}
+h2 {
+	margin-top: 0;
+}
+.logo {
+	width: 300px;
+	padding-left: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
