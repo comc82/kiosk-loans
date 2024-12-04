@@ -9,7 +9,10 @@
 	<link href="css/app.css" rel="stylesheet"/>
 </head>
 <body>
+
 <div class="bg-container"></div>
+<div class="container">
+	<form novalidate action="http://www.google.com" method="post" class="pure-form">
 	<div class="app-container">
 		<header>
 			<img src="img/logo.png" class="responsive-img logo">
@@ -23,8 +26,6 @@
 				</diV>
 			</div>
 		</div>
-		<div style="background-color: white">
-			<form novalidate action="http://www.google.com" method="post" class="pure-form">
 				<h2 class="title">Are you eligible to apply? <i class="material-icons">help_outline</i></h2>
 				<div class="pure-g">
 				<main class="pure-u-17-24">
@@ -40,11 +41,15 @@
 						<li>You have a UK bank account with a debit card.</li>
 					</ul>
 					<div class="pure-g">
-					<button type="submit" class="pure-button pure-button-primary pure-u-12-24 l-box"><div class="ripple-container"></div>Yes, I am eligible to continue</button>
-					<button type="button" class="pure-button pure-u-12-24 l-box">No, I am not eligible to continue</button>
+						<div class="pure-u-5-12">
+							<button type="submit" class="pure-button pure-button-primary pure-u-1 l-box"><div class="ripple-container"></div>Yes, I am eligible to continue</button>
+						</div>
+						<div class="pure-u-1-6">
+						</div>
+						<div class="pure-u-5-12">
+							<button type="button" class="pure-button pure-u-1 l-box">No, I am not eligible to continue</button>
+						</div>
 					</div>
-					<br>
-					<br>
 				</main>
 				<aside class="pure-u-7-24">
 					<p class="highlight">Information you need to complete your application:</p>
@@ -56,8 +61,9 @@
 					</ul>
 				</aside>
 				</div>
-			</form>
-		</div>
 	</div>
+	</form>	
+</div>	
+
 </body>
 </html>
