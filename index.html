@@ -4,22 +4,34 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<title>Cheque Centre Self Service</title>
-	<link href="css/pure.css" rel="stylesheet"/>
-	<link href="css/grids-responsive.css" rel="stylesheet"/>
-	<link href="css/app.css" rel="stylesheet"/>
+	<link href="css/pure.css" rel="stylesheet" />
+	<link href="css/grids-responsive.css" rel="stylesheet" />
+	<link href="css/app.css" rel="stylesheet" />
 </head>
-<body>
-<div class="bg-container-init"></div>
+
+<body class="loading">
+	<div class="bg-container-init"></div>
 	<div class="container">
-			<div class="pure-g text-center">
-				<div class="pure-u-3-4">
-					<h1 class="title-init"><img src="img/loan.png" class="responsive-img"> Choice Loan</h1>
-					<span class="text-init">__________</span>
-					<p class="text-init">Borrow &#163;200 - &#163;1000 with up to<br/>6 months to pay it back.</p>
-					<a href="page1.html" class="pure-button pure-button-init">Start Now</a>
-				</div>
+		<div class="pure-g text-center">
+			<div class="pure-u-3-4">
+				<h1 class="title-init"><img src="img/loan.png" class="responsive-img"> Choice Loan</h1>
+				<span class="text-init">__________</span>
+				<p class="text-init">Borrow &#163;200 - &#163;1000 with up to<br />6 months to pay it back.</p>
+				<a href="page1.html" class="pure-button pure-button-init">Start Now</a>
 			</div>
+		</div>
 	</div>
 </body>
+<script>
+	var body = document.getElementsByTagName('body')[0];
+	var removeLoading = function () {
+		// In a production application you would remove the loading class when your
+		// application is initialized and ready to go.  Here we just artificially wait
+		// 3 seconds before removing the class.
+		setTimeout(function () {
+			body.className = body.className.replace(/loading/, '');
+		}, 3000);
+	};
+	removeLoading();
+</script>
 </html>
-
