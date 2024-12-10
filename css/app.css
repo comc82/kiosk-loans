@@ -454,3 +454,9 @@ input[type=checkbox] {
     15% { transform: translateY(-8px); }
     20%  { transform: translateY(0); }
 }
+
+.icon-success{
+	font-size: 120px;
+	display: inline-block;
+	color: green;
+}
