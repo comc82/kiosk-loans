@@ -441,3 +441,16 @@ input[type=checkbox] {
 .font-weight-bold {
 	font-weight: bold;
 }
+
+.bounce {
+    animation: bounce 3s infinite; /* Repetir cada 4 segundos y ser infinita */
+}
+
+/* Definir la animación Bounce */
+@keyframes bounce {
+    0%  { transform: translateY(0); }
+    5% { transform: translateY(-8px); }
+    10%  { transform: translateY(0); }
+    15% { transform: translateY(-8px); }
+    20%  { transform: translateY(0); }
+}
