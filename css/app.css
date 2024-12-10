@@ -153,6 +153,7 @@ aside {
 	z-index: 0;
 	top:0px;
 }
+
 .progress-done {
 	height: 6px;
 	background-color: #0079c0;
@@ -170,9 +171,28 @@ aside {
 	z-index: 1;
 	top: 0;
 }
+.progress-done-3{
+	height: 6px;
+	background-color: #0079c0;
+	width: 75%;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+}
+
+.progress-done-4{
+	height: 6px;
+	background-color: #0079c0;
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+}
+
 h2 {
 	margin-top: 0;
 }
+
 .logo {
 	width: 300px;
 	padding-left: 50px;
@@ -252,12 +272,21 @@ input[type=checkbox]{
 }
 
 .pure-table td, .pure-table th {
-	color: #555555;	
+	color: #555555;
 	padding: 1em 1em;
+}
+
+.pure-table th {
+	background-color: #bababa;
 }
 
 .label-checkbox label {
 	padding-right: 34px;
+	display: inline-block;
+}
+
+.label-checkbox {
+	display: inline-block;
 }
 
 .label-checkbox label:last-child{
